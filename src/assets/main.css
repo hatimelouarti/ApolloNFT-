@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&family=Inter:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: -0.02em;
+}
+@responsive {
+  .gardbut {
+    background: linear-gradient(112.62deg, #0038ed 1.4%, #8d1cfe 80.15%);
+    position: relative;
+    z-index: 1;
+  }
+
+  .gardbut::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+
+    z-index: -1;
+    border-radius: 9999px;
+
+    transition: opacity 500ms ease-in-out;
+  }
+  .gardbut:hover::before {
+    opacity: 0;
+  }
+  .gardbut:active {
+    background: #0038ed;
+  }
+  .gardmenu:hover {
+    background: linear-gradient(112.62deg, #8d1cfe 29.4%, #0038ed 105.15%);
+    transition: opacity 500ms ease-in-out;
+  }
+  .gardmenu:active {
+    background: #0038ed;
+    transition: opacity 500ms ease-in-out;
+  }
+}
+
+.light {
+  background: rgba(214, 34, 218, 0.4);
+  filter: blur(247px);
+  opacity: 0.4;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.active {
+  background: #0038ed;
+}
+
+.linkhover {
+  animation: linkhover 2s infinite;
+}
+
+@keyframes linkhover {
+  30% {
+    color: #0038ed;
+  }
+  60% {
+    color: #8d1cfe;
+  }
+  90% {
+    color: #110929;
+  }
+}
+.headmenuhover::before {
+  content: "";
+  background: #0038ed;
+  width: 100%;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: -1;
+  transition: height 400ms;
+  transform-origin: center;
+}
+.headmenuhover:hover::before {
+  height: 100%;
+}
+@keyframes linkhover {
+  0% {
+    height: 0%;
+  }
+  100% {
+    height: 100%;
+  }
+}
+.faderight {
+  animation: faderight 2s forwards;
+}
+@keyframes faderight {
+  0% {
+    opacity: 0;
+    transform: translateX(150px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.fadein {
+  animation: fadein 2s forwards;
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.fadeleft {
+  animation: fadeleft 2s forwards;
+}
+@keyframes fadeleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.scrollwatcher {
+  width: 100%;
+  height: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: aquamarine;
+  z-index: 40;
+  scale: 0 1;
+  animation: scrollwatcher both;
+  animation-timeline: scroll();
+}
+@keyframes scrollwatcher {
+  to {
+    scale: 1 1;
+  }
+}
+.fade {
+  opacity: 0;
+  animation: fade 2s forwards;
+  animation-timeline: view();
+}
+@keyframes fade {
+  100% {
+    opacity: 1;
+  }
+}
+.fadertab {
+  animation: fadertab 1s forwards;
+  animation-duration: 10ms;
+}
+@keyframes fadertab {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
