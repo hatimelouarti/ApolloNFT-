@@ -67,5 +67,6 @@
   </div>
 </template>
 <script scoped>
-import "../scroll.js";
+import "../../public/scroll.js";
 </script>
+../../public/scroll.js

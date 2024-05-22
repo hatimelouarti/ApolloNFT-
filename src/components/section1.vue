@@ -141,7 +141,7 @@
   </div>
 </template>
 <script setup>
-import "../scroll.js";
+import "../../public/scroll.js";
 import { ref } from "vue";
 import { onMounted } from "vue";
 
@@ -321,3 +321,4 @@ onMounted(() => {
   }
 }
 </style>
+../../public/scroll.js

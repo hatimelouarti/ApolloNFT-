@@ -34,6 +34,7 @@
   </div>
 </template>
 <script setup>
-import "../scroll.js";
+import "../../public/scroll.js";
 </script>
 <style scoped></style>
+../../public/scroll.js

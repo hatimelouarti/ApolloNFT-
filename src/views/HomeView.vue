@@ -1,5 +1,5 @@
 <script setup>
-import "../scroll.js";
+import "../../public/scroll.js";
 import section1 from "@/components/section1.vue";
 import section2 from "@/components/section2.vue";
 import section3 from "@/components/section3.vue";
@@ -25,3 +25,4 @@ import secfooter from "@/components/secfooter.vue";
   </div>
 </template>
 <style scoped></style>
+../../public/scroll.js

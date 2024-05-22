@@ -1,5 +1,5 @@
 <script setup>
-import "../scroll.js";
+import "../../public/scroll.js";
 import { creatorsstore } from "@/stores/creators";
 const creators = creatorsstore();
 </script>
@@ -69,3 +69,4 @@ const creators = creatorsstore();
   }
 }
 </style>
+../../public/scroll.js

@@ -1,5 +1,5 @@
 <script setup>
-import "../scroll.js";
+import "../../public/scroll.js";
 import { ref, computed } from "vue";
 import { nftsstore } from "@/stores/nftsmarketplace";
 
@@ -179,3 +179,4 @@ const tab = (tabname, e) => {
     </div>
   </div>
 </template>
+../../public/scroll.js
