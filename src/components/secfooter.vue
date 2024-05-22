@@ -38,27 +38,27 @@
     >
       <ul class="text-footergrey space-y-2 w-2/5 mt-8 lg:mt-0">
         <h4 class="font-bold text-white mb-4">Marketplace</h4>
-        <li><a href="">Buy Product</a></li>
-        <li><a href="">Sell Product</a></li>
-        <li><a href="">Our Creator</a></li>
+        <li><a href="#">Buy Product</a></li>
+        <li><a href="#">Sell Product</a></li>
+        <li><a href="#">Our Creator</a></li>
       </ul>
       <ul class="text-footergrey space-y-2 w-2/5 mt-8 lg:mt-0">
         <h4 class="font-blod text-white mb-4">Resources</h4>
-        <li><a href="">About Us</a></li>
-        <li><a href="">Event</a></li>
-        <li><a href="">Tutorial</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Event</a></li>
+        <li><a href="#">Tutorial</a></li>
       </ul>
       <ul class="text-footergrey space-y-2 w-2/5 mt-8 lg:mt-0">
         <h4 class="font-blod text-white mb-4">Company</h4>
-        <li><a href="">Media</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Pricing</a></li>
+        <li><a href="#">Media</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pricing</a></li>
       </ul>
       <ul class="text-footergrey space-y-2 w-2/5 mt-8 lg:mt-0">
         <h4 class="font-blod text-white text-[18px] mb-4">Legal</h4>
-        <li><a href="">Terms</a></li>
-        <li><a href="">Privacy</a></li>
-        <li><a href="">Support</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Support</a></li>
       </ul>
     </div>
   </div>

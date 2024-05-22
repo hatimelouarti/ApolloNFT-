@@ -20,16 +20,16 @@ import { RouterLink, RouterView } from "vue-router";
                   <RouterLink to="/">Home</RouterLink>
                 </li>
                 <li class="mr-[40px] relative headmenuhover">
-                  <RouterLink to="/about">Drop</RouterLink>
+                  <RouterLink to="/">Drop</RouterLink>
                 </li>
                 <li class="mr-[40px] relative headmenuhover">
-                  <RouterLink to="/about">Marketplace</RouterLink>
+                  <RouterLink to="/">Marketplace</RouterLink>
                 </li>
                 <li class="mr-[40px] relative headmenuhover">
-                  <RouterLink to="/about">Creator</RouterLink>
+                  <RouterLink to="/">Creator</RouterLink>
                 </li>
                 <li class="mr-[40px] relative headmenuhover">
-                  <RouterLink to="/about">Community</RouterLink>
+                  <RouterLink to="/">Community</RouterLink>
                 </li>
               </ul>
             </nav>
