@@ -1,4 +1,5 @@
 <script setup>
+import "../scroll.js";
 import { creatorsstore } from "@/stores/creators";
 const creators = creatorsstore();
 </script>

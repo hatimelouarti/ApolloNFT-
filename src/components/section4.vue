@@ -33,5 +33,7 @@
     </div>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import "../scroll.js";
+</script>
 <style scoped></style>

@@ -141,8 +141,10 @@
   </div>
 </template>
 <script setup>
+import "../scroll.js";
 import { ref } from "vue";
 import { onMounted } from "vue";
+
 //data
 let left = ref();
 let center = ref();

@@ -1,4 +1,5 @@
 <script setup>
+import "../src/scroll.js";
 import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 </script>

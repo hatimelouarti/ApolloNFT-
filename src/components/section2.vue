@@ -1,4 +1,5 @@
 <script setup>
+import "../scroll.js";
 import { ref, computed } from "vue";
 import { nftsstore } from "@/stores/nftsmarketplace";
 

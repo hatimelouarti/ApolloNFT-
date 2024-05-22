@@ -66,4 +66,6 @@
     © 2077 ApolloNFT. All rights reserved.
   </div>
 </template>
-<script scoped></script>
+<script scoped>
+import "../scroll.js";
+</script>

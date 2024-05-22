@@ -83,4 +83,6 @@
 }
 </style>
 
-<script setup></script>
+<script setup>
+import "../scroll.js";
+</script>
