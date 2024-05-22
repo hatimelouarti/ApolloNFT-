@@ -36,7 +36,7 @@ export default {
         h2: "-0.02em", // Custom letter spacing for h2
       },
       backgroundImage: {
-        community: "url('community.png')",
+        community: "url('/community.png')",
       },
     },
     screens: {
